@@ -1,0 +1,17 @@
+services:
+  grimilab-website:
+    build: .
+    container_name: grimilab-website
+    restart: unless-stopped
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
+      - ./styles.css:/usr/share/nginx/html/styles.css:ro
+      - ./script.js:/usr/share/nginx/html/script.js:ro
+      - ./images:/usr/share/nginx/html/images:ro
+      - ./translations:/usr/share/nginx/html/translations:ro
+    networks:
+      - ${SHARED_NETWORK}
+
+networks:
+  ${SHARED_NETWORK}:
+    external: true
