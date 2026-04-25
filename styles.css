@@ -243,11 +243,13 @@ body {
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
+    display: flex;
+    justify-content: center;
     margin-top: 3rem;
+}
+
+.about-text {
+    max-width: 600px;
 }
 
 .about-text p {
@@ -478,6 +480,39 @@ body {
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 5px 20px var(--shadow);
+}
+
+.contact-email {
+    background-color: #f8f9fa;
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px var(--shadow);
+    text-align: center;
+}
+
+.contact-email p {
+    font-size: 1.3rem;
+    color: var(--wood-dark);
+    margin: 0;
+}
+
+.contact-email strong {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--wood-dark);
+}
+
+.contact-email a {
+    color: var(--sage);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.contact-email a:hover {
+    color: #16a085;
+    border-bottom-color: #16a085;
 }
 
 .form-group {
