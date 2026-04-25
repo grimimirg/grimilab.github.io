@@ -1,6 +1,6 @@
 services:
   grimilab-website:
-    build: .
+    build: ../grimilab-app
     container_name: grimilab-website
     restart: unless-stopped
     volumes:
