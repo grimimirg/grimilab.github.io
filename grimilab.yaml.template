@@ -1,5 +1,5 @@
 services:
-  grimilab-website:
+  grimilab:
     build: ../grimilab-app
     container_name: grimilab-website
     restart: unless-stopped
