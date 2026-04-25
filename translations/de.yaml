@@ -1,0 +1,49 @@
+nav:
+  logo: "GrimiLab"
+  home: "Startseite"
+  about: "Über mich"
+  gallery: "Projekte"
+  contact: "Kontakt"
+
+hero:
+  title: "Neues Leben für Dinge"
+  subtitle: "Abfallmaterialien in etwas Nützliches verwandeln... und vielleicht sogar Schönes!"
+  cta: "Projekte Entdecken"
+
+about:
+  title: "Die Philosophie der Wiederverwendung"
+  paragraph1: "In einer Gesellschaft, die ständig wegwirft und ersetzt, suchen wir den verborgenen Wert in vergessenen Gegenständen."
+  paragraph2: "Diese Projekte entstehen aus verlassenen Paletten, alten Möbeln, Baustellenabfällen und allem, was unsere Konsumkultur als 'Müll' betrachtet. Mit Leidenschaft und Kreativität werden sie in einzigartige funktionale und dekorative Objekte verwandelt."
+  stat1_number: "100%"
+  stat1_label: "Recycelte Materialien"
+  stat2_number: "∞"
+  stat2_label: "Geschaffener Wert"
+
+gallery:
+  title: "Die Projekte"
+  subtitle: "Bisher abgeschlossene Projekte"
+  project1_title: "Kleines Bücherregal aus einer Tür"
+  project1_desc: "Umwandlung einer alten geschenkten Tür in ein rustikales Bücherregal."
+  project2_title: "Regal für Audiokassetten"
+  project2_desc: "Hergestellt aus Brettern eines Pflanzkastens und einigen Stücken geripptem Sperrholz."
+  project3_title: "Glasbausteinlampe"
+  project3_desc: "Hergestellt aus einem Glasbausteinblock, einem Walnussrahmen und einem 220V-LED-Streifen."
+
+contact:
+  title: "Haben Sie ein Projekt im Kopf?"
+  subtitle: "Kontaktieren Sie uns, um gemeinsam Ihr individuelles Projekt zu realisieren"
+  disclaimer: "⚠️ WICHTIG: Die durchgeführte Tätigkeit ist hobbymäßiger Natur und nicht gewinnorientiert. Die geschaffenen Objekte werden zu günstigen Preisen angeboten, da es sich um eine nicht-professionelle Tätigkeit handelt. Herstellungs- und Lieferzeiten sind nicht garantiert und können je nach Verfügbarkeit und Anzahl der laufenden Projekte variieren; nach Annahme des Projekts erfolgt die Lieferung zu einem unbestimmten Zeitpunkt, wobei jederzeit Updates zum Arbeitsfortschritt angefordert werden können. Der verlangte Preis deckt ausschließlich die zusätzlichen Materialien ab, die in Geschäften oder bei Lieferanten gekauft werden müssen; auf Anfrage können die entsprechenden Belege als Nachweis der tatsächlich entstandenen Materialkosten vorgelegt werden. Da die Tätigkeit nicht gewinnorientiert ist, behalten wir uns das Recht vor, den Auftrag abzulehnen, falls ein Projekt unsere technischen Fähigkeiten oder verfügbaren Ressourcen übersteigt, ohne Verpflichtung zur Annahme. Mit der Annahme einer Bestellung nimmt der Kunde diese Bedingungen zur Kenntnis und akzeptiert sie; für Klärungen zu Zeitplänen, Materialien oder Projektstatus können Sie uns direkt kontaktieren."
+  why_title: "Vorteile"
+  benefit1: "Einzigartige Stücke"
+  benefit2: "Minimale Umweltbelastung"
+  benefit3: "Geschichte und Charakter in jedem Stück"
+  benefit4: "Sehr niedrige Kosten"
+  form_name: "Name"
+  form_email: "E-Mail"
+  form_project: "Beschreiben Sie Ihr Projekt"
+  form_submit: "Anfrage Senden"
+  form_success: "Vielen Dank für Ihre Nachricht! Wir werde uns bald bei Ihnen melden."
+  form_error: "Bitte füllen Sie alle Felder aus."
+
+footer:
+  copyright: "© 2026 GrimiLab - Nachhaltige Kreationen"

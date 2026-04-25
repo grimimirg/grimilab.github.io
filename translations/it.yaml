@@ -1,0 +1,49 @@
+nav:
+  logo: "GrimiLab"
+  home: "Home"
+  about: "Filosofia"
+  gallery: "Progetti"
+  contact: "Contatti"
+
+hero:
+  title: "Nuova Vita alle Cose"
+  subtitle: "Trasformare materiali di scarto in qualcosa di utile... e magari anche bello!"
+  cta: "Scopri i Progetti"
+
+about:
+  title: "La Filosofia del Riuso"
+  paragraph1: "In una società che scarta e sostituisce continuamente, si cerca il valore nascosto negli oggetti dimenticati."
+  paragraph2: "Questi progetti nascono da pallet abbandonati, mobili vecchi, scarti di cantiere e tutto ciò che la nostra cultura consumistica considera \"rifiuto\". Con passione e creatività, vengono trasformati in oggetti funzionali e decorativi unici."
+  stat1_number: "100%"
+  stat1_label: "Materiali Riciclati"
+  stat2_number: "∞"
+  stat2_label: "Valore Creato"
+
+gallery:
+  title: "I Progetti"
+  subtitle: "I progetti realizzati sino ad oggi"
+  project1_title: "Piccola Libreria creata da una Porta"
+  project1_desc: "Trasformazione di una vecchia porta regalata, in una libreria rustica."
+  project2_title: "Scaffale per audiocassette"
+  project2_desc: "Realizzato con assi di una fioriera e qualche pezzo di multistrato rigatino."
+  project3_title: "Lampada in Vetrocemento"
+  project3_desc: "Realizzata con un pezzo di vetrocemento, una cornice in noce e una striscia led a 220V."
+
+contact:
+  title: "Hai un Progetto in Mente?"
+  subtitle: "Contattaci per realizzare insieme il tuo progetto personalizzato"
+  disclaimer: "⚠️ IMPORTANTE: L'attività svolta è di carattere hobbistico e senza scopo di lucro. Gli oggetti creati sono offerti a prezzi contenuti in ragione della natura non professionale dell'attività. I tempi di realizzazione e di consegna non sono garantiti e possono variare in funzione della disponibilità e del numero di progetti in lavorazione; dopo l'accettazione del progetto, la consegna avverrà a tempo indeterminato, fermo restando che è possibile richiedere aggiornamenti sullo stato di avanzamento dei lavori. Il prezzo richiesto copre esclusivamente i materiali aggiuntivi che devono essere acquistati presso negozi o fornitori; su richiesta è possibile esibire le relative ricevute fiscali a dimostrazione dell'effettivo costo sostenuto per i materiali. Essendo l'attività priva di scopo di lucro, qualora un progetto risultasse oltre le competenze tecniche o le risorse disponibili, ci riserviamo il diritto di rifiutare l'incarico senza obbligo di accettazione. Accettando un ordine, il cliente prende atto e accetta le presenti condizioni; per qualsiasi chiarimento sulle tempistiche, sui materiali o sullo stato del progetto è possibile contattarci direttamente."
+  why_title: "Vantaggi"
+  benefit1: "Pezzi unici"
+  benefit2: "Impatto ambientale minimo"
+  benefit3: "Storia e carattere in ogni pezzo"
+  benefit4: "Costi bassissimi"
+  form_name: "Nome"
+  form_email: "Email"
+  form_project: "Descrivi il tuo progetto"
+  form_submit: "Invia Richiesta"
+  form_success: "Grazie per il tuo messaggio! Vi risponderemo al più presto."
+  form_error: "Per favore, compila tutti i campi."
+
+footer:
+  copyright: "© 2026 GrimiLab - Creazioni Sostenibili"

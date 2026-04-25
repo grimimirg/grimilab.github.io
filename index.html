@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrimiLab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo" data-i18n="nav.logo"></div>
+        <ul class="nav-menu">
+            <li><a href="#home" data-i18n="nav.home"></a></li>
+            <li><a href="#about" data-i18n="nav.about"></a></li>
+            <li><a href="#gallery" data-i18n="nav.gallery"></a></li>
+            <li><a href="#contact" data-i18n="nav.contact"></a></li>
+        </ul>
+        <div class="language-selector">
+            <button class="lang-btn active" data-lang="it">IT</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="de">DE</button>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 class="hero-title" data-i18n="hero.title"></h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
+        <a href="#gallery" class="cta-button" data-i18n="hero.cta"></a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title" data-i18n="about.title"></h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p data-i18n="about.paragraph1"></p>
+                <p data-i18n="about.paragraph2"></p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-i18n="about.stat1_number"></span>
+                        <span class="stat-label" data-i18n="about.stat1_label"></span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-i18n="about.stat2_number"></span>
+                        <span class="stat-label" data-i18n="about.stat2_label"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-placeholder">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                         stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="gallery" class="gallery">
+    <div class="container">
+        <h2 class="section-title" data-i18n="gallery.title"></h2>
+        <p class="section-subtitle" data-i18n="gallery.subtitle"></p>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/book-shelf.jpg" alt="Libreria da Pallet">
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="gallery.project1_title"></h3>
+                    <p data-i18n="gallery.project1_desc"></p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/cassettes-holder.jpg" alt="Porta Cassette">
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="gallery.project2_title"></h3>
+                    <p data-i18n="gallery.project2_desc"></p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/lamp.jpg" alt="Lampada">
+                </div>
+                <div class="project-info">
+                    <h3 data-i18n="gallery.project3_title"></h3>
+                    <p data-i18n="gallery.project3_desc"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title" data-i18n="contact.title"></h2>
+        <p class="section-subtitle" data-i18n="contact.subtitle"></p>
+
+        <div class="disclaimer-box">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <p data-i18n="contact.disclaimer"></p>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3 data-i18n="contact.why_title"></h3>
+                <ul class="benefits-list">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="contact.benefit1"></span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="contact.benefit2"></span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="contact.benefit3"></span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                             stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span data-i18n="contact.benefit4"></span>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name" data-i18n="contact.form_name"></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="contact.form_email"></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="project" data-i18n="contact.form_project"></label>
+                    <textarea id="project" name="project" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button" data-i18n="contact.form_submit"></button>
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p data-i18n="footer.copyright"></p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

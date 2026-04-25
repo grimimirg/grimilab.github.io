@@ -1,0 +1,49 @@
+nav:
+  logo: "GrimiLab"
+  home: "Home"
+  about: "About"
+  gallery: "Projects"
+  contact: "Contact"
+
+hero:
+  title: "New Life to Things"
+  subtitle: "Transforming waste materials into something useful... and maybe even beautiful!"
+  cta: "Discover Projects"
+
+about:
+  title: "The Philosophy of Reuse"
+  paragraph1: "In a society that constantly discards and replaces, we seek the hidden value in forgotten objects."
+  paragraph2: "These projects are born from abandoned pallets, old furniture, construction scraps, and everything our consumer culture considers \"waste\". With passion and creativity, they are transformed into unique functional and decorative objects."
+  stat1_number: "100%"
+  stat1_label: "Recycled Materials"
+  stat2_number: "∞"
+  stat2_label: "Value Created"
+
+gallery:
+  title: "The Projects"
+  subtitle: "Projects completed to date"
+  project1_title: "Small Bookshelf Made from a Door"
+  project1_desc: "Transformation of an old gifted door into a rustic bookshelf."
+  project2_title: "Cassette Tape Shelf"
+  project2_desc: "Made with boards from a planter and some pieces of ribbed plywood."
+  project3_title: "Glass Block Lamp"
+  project3_desc: "Made with a piece of glass block, a walnut frame and a 220V LED strip."
+
+contact:
+  title: "Have a Project in Mind?"
+  subtitle: "Contact us to bring your custom project to life together"
+  disclaimer: "⚠️ IMPORTANT: The activity carried out is of a hobby nature and non-profit. The items created are offered at affordable prices due to the non-professional nature of the activity. Production and delivery times are not guaranteed and may vary depending on availability and the number of projects in progress; after project acceptance, delivery will occur at an indefinite time, with the understanding that updates on work progress can be requested. The requested price covers exclusively the additional materials that must be purchased from stores or suppliers; upon request, the relevant receipts can be provided as proof of the actual cost incurred for materials. As the activity is non-profit, should a project prove to be beyond our technical skills or available resources, we reserve the right to decline the assignment without obligation of acceptance. By accepting an order, the customer acknowledges and accepts these conditions; for any clarification regarding timelines, materials, or project status, please contact us directly."
+  why_title: "Benefits"
+  benefit1: "Unique pieces"
+  benefit2: "Minimal environmental impact"
+  benefit3: "History and character in every piece"
+  benefit4: "Very low costs"
+  form_name: "Name"
+  form_email: "Email"
+  form_project: "Describe your project"
+  form_submit: "Send Request"
+  form_success: "Thank you for your message! We'll get back to you soon."
+  form_error: "Please fill in all fields."
+
+footer:
+  copyright: "© 2026 GrimiLab - Sustainable Creations"
