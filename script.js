@@ -134,30 +134,53 @@ document.addEventListener('DOMContentLoaded', function() {
     const lightboxImg = document.getElementById('lightbox-img');
     const lightboxClose = document.querySelector('.lightbox-close');
     
-    document.querySelectorAll('.project-image img').forEach(img => {
-        img.addEventListener('click', function() {
-            lightbox.style.display = 'block';
+    if (!lightbox || !lightboxImg || !lightboxClose) {
+        console.error('Lightbox elements not found!');
+        return;
+    }
+    
+    const projectImages = document.querySelectorAll('.project-image img');
+    console.log('Lightbox initialized. Found', projectImages.length, 'images');
+    
+    projectImages.forEach((img, index) => {
+        console.log('Adding click listener to image', index + 1);
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            console.log('Image clicked!', this.src);
+            lightbox.style.display = 'flex';
+            lightbox.style.alignItems = 'center';
+            lightbox.style.justifyContent = 'center';
             lightboxImg.src = this.src;
             lightboxImg.alt = this.alt;
             document.body.style.overflow = 'hidden';
+            console.log('Lightbox should be visible now');
         });
     });
     
     function closeLightbox() {
+        console.log('Closing lightbox');
         lightbox.style.display = 'none';
         document.body.style.overflow = 'auto';
     }
     
-    lightboxClose.addEventListener('click', closeLightbox);
+    if (lightboxClose) {
+        lightboxClose.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            closeLightbox();
+        });
+    }
     
     lightbox.addEventListener('click', function(e) {
-        if (e.target === lightbox) {
+        if (e.target === lightbox || e.target === lightboxClose) {
             closeLightbox();
         }
     });
     
     document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape' && lightbox.style.display === 'block') {
+        if (e.key === 'Escape' && lightbox.style.display !== 'none') {
             closeLightbox();
         }
     });
